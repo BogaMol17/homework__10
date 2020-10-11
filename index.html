@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Урок№10</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<form action="#" class="form" enctype="multipart/form-data">
+				<h1 class="title">Восстановление пароля</h1>
+				<div class="form__container">
+					<h3 class="subtitle">Введите Email, на него будет выслан новый пароль</h3>
+					<div class="form__item">
+						<input name="form[]" type="email" placeholder="Почта*" class="input">
+					</div>
+					<div class="form__item">
+						<a href="" class="return"><span>Вернуться в форму авторизации</span></a>
+					</div>
+					<div class="form__item">
+						<button type="submit" class="btn input">Отправить</button>
+					</div>
+					<div class="form__item">
+						<p>* Если вы не получили письмо с паролем,
+							проверьте папку Спам.</p>
+					</div>
+					<div class="form__registration">
+						У вас нет аккаунта? <a href="" class="form__link">Регистрация</a>
+					</div>
+					<!--===============================================================================-->
+					<div class="form__title">
+						<h2 class="title">Вход</h2>
+					</div>
+					<div class="form__item">
+						<input name="form[]" type="email" placeholder="Почта*" class="input">
+					</div>
+					<div class="form__item">
+						<input name="form[]" type="password" placeholder="Пароль*" class="input">
+					</div>
+					<div class="form__item form__checkbox">
+						<input id="remember" class="checkbox__form" name="form[]" type="checkbox">
+						<label class="rememberme" for="remember">Запомни меня</label>
+					</div>
+					<div class="link__form">
+						<a href="" class="form__link">Забыли пароль?</a>
+					</div>
+
+					<div class="form__item">
+						<button type="submit" class=" enter__btn input btn">Войти</button>
+					</div>
+					<!--===============================================================================================-->
+					<div class="form__title">
+						<h2 class="title">Регистрация</h2>
+					</div>
+					<div class="form__item">
+						<input name="form[]" type="text" placeholder="Имя*" class="input">
+					</div>
+					<div class="form__item">
+						<input name="form[]" type="text" placeholder="Фамилия*" class="input">
+					</div>
+					<div class="form__item">
+						<input name="form[]" type="text" placeholder="Логин*" class="input">
+					</div>
+					<div class="form__item">
+						<input name="form[]" type="email" placeholder="EMail*" class="input">
+					</div>
+					<div class="form__item">
+						<input name="form[]" type="password" placeholder="Пароль*" class="input">
+					</div>
+					<div class="form__item">
+						<input name="form[]" type="password" placeholder="Повторите пароль*" class="input">
+					</div>
+					<div class="form__item form__gender">
+						<input class="gender__form" checked id="radioman" name="gender" value="man" type="radio">
+						<label class="gender__label" for="radioman">Мужчина</label>
+					</div>
+					<div class="form__item form__gender">
+						<input class="gender__form" id="radiowoman" name="gender" value="woman" type="radio">
+						<label class="gender__label" for="radiowoman">Женщина</label>
+					</div>
+					<div class="form__item form__checkbox">
+						<input id="accord" required class="checkbox__form" name="form[]" type="checkbox">
+						<label class="iaccord" for="accord">Я согласен с<a href="" class="form__link">Условия и
+								правила</a></label>
+					</div>
+					<div class="form__item">
+						<button type="submit" class="btn input">Регистрация</button>
+					</div>
+					<div class="form__registration">
+						У вас есть аккаунт? <a href="" class="form__link">Войти</a>
+					</div>
+				</div>
+		</div>
+		</form>
+	</div>
+</body>
+
+</html>
